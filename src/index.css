@@ -1,8 +1,17 @@
+@font-face {
+  font-family: Nirmala UI;
+  src: url(/src/fonts/Nirmala.ttf), format('truetype');
+}
+
+@font-face {
+  font-family: noorehuda;
+  src: url(/src/fonts/noorehuda-regular.ttf), format('truetype');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-color: rgb(132, 147, 151) !important;
+  font-family: Nirmala UI, noorehuda !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
