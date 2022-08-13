@@ -6,6 +6,27 @@
     width: 40% !important;
 }
 
+.admin-page {
+    width: 70% !important;
+}
+
+.bangla-meaning-input {
+    width: 40% !important;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.arabic-word-input {
+    width: 40% !important;
+    display: inline-block;
+}
+
+.update-button {
+    width: 17% !important;
+    font-size: larger !important;
+    margin-left: 10px !important;
+}
+
 @media only screen and (max-width: 992px) {
     .home-page {
         width: 100% !important;
@@ -13,5 +34,24 @@
 
     .login-page {
         width: 90% !important;
+    }
+
+    .admin-page {
+        width: 95% !important;
+    }
+
+    .bangla-meaning-input {
+        width: 100% !important;
+        display: block;
+    }
+
+    .arabic-word-input {
+        width: 100% !important;
+    }
+
+    .update-button {
+        width: 50% !important;
+        margin-left: 25% !important;
+        display: block !important;
     }
 }

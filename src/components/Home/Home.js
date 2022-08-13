@@ -8,7 +8,7 @@ const Home = () => {
     const [words] = useWords(searchedText);
 
     return (
-        <div className='container mt-5 pt-4 home-page'>
+        <div className='mx-auto mt-5 pt-4 home-page'>
             <Form.Group className="mb-3 text-end" controlId="exampleForm.ControlInput1">
                 <Form.Control type="text" className='text-end fs-1' placeholder="আরবী শব্দ খুঁজুন" onChange={e => setSearchedText(e.target.value)} />
             </Form.Group>

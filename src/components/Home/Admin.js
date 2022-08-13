@@ -7,12 +7,15 @@ const Admin = () => {
     const [words] = useWords(searchedText);
     return (
         <div className='container mt-5 pt-4 home-page'>
-            <Form.Group className="mb-3 text-end w-50 d-inline-block" controlId="exampleForm.ControlInput1">
-                <Form.Control type="text" className='text-end fs-3' placeholder="আরবী শব্দ খুঁজুন" onChange={e => setSearchedText(e.target.value)} />
-            </Form.Group>
-            <Form.Group className="mb-3 text-end w-50 d-inline-block" controlId="exampleForm.ControlInput1">
-                <Form.Control type="text" className='text-end fs-3' placeholder="আরবী শব্দ খুঁজুন" onChange={e => setSearchedText(e.target.value)} />
-            </Form.Group>
+            <Form>
+                <Form.Group className="mb-3 text-end bangla-meaning-input" controlId="exampleForm.ControlInput1">
+                    <Form.Control type="text" className='text-end fs-1' placeholder="শব্দার্থ" onChange={e => setSearchedText(e.target.value)} />
+                </Form.Group>
+                <Form.Group className="mb-3 text-end arabic-word-input" controlId="exampleForm.ControlInput2">
+                    <Form.Control type="text" className='text-end fs-1' placeholder="আরবী শব্দ" onChange={e => setSearchedText(e.target.value)} />
+                </Form.Group>
+                <button className="btn btn-dark d-inline-block mb-4 py-3 update-button">আপডেট</button>
+            </Form>
 
             <Table striped bordered hover variant="dark" className='text-center'>
                 <thead>
