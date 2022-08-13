@@ -15,6 +15,7 @@ const Header = () => {
                 <Navbar.Brand as={Link} to='/'>আল-কুরআনের অভিধান</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className='me-auto ms-2 text-muted'>N.B. The dictionary is under construction</Nav>
                     <Nav className="ms-auto">
                         <Nav.Link
                             href='https://github.com/abdullahhosenakash/lugatul-quran-server'
@@ -22,7 +23,7 @@ const Header = () => {
                             rel="noreferrer"
                         >API</Nav.Link>
                         {user ?
-                            <div className="d-flex">
+                            <div className="d-flex flex-column flex-lg-row">
                                 <Nav.Link as={Link} to='/admin'>{user.displayName}</Nav.Link>
                                 <button className='bg-dark text-muted border-0' onClick={() => signOut(auth)}>LogOut</button>
                             </div>

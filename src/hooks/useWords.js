@@ -5,7 +5,7 @@ const useWords = searchedText => {
     const [words, setWords] = useState([]);
     useEffect(() => {
         if (searchedText) {
-            fetch(`http://localhost:5000/getWord/${searchedText}`)
+            fetch(`https://damp-beyond-93367.herokuapp.com/getWord/${searchedText}`)
                 .then(res => res.json())
                 .then(data => setWords(data.result));
         }

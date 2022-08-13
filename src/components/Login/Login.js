@@ -20,7 +20,7 @@ const Login = () => {
         const email = event.target.email.value;
         const secret = event.target.secret.value;
         const password = event.target.password.value;
-        fetch('http://localhost:5000/isAdmin', {
+        fetch('https://damp-beyond-93367.herokuapp.com/isAdmin', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

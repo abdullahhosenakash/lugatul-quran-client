@@ -12,13 +12,13 @@
 
 .bangla-meaning-input {
     width: 40% !important;
-    display: inline-block;
-    margin-right: 10px;
+    display: inline-block !important;
 }
 
 .arabic-word-input {
     width: 40% !important;
-    display: inline-block;
+    display: inline-block !important;
+    margin-right: 10px !important;
 }
 
 .update-button {
@@ -42,7 +42,7 @@
 
     .bangla-meaning-input {
         width: 100% !important;
-        display: block;
+        display: block !important;
     }
 
     .arabic-word-input {
