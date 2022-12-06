@@ -1,11 +1,11 @@
 @font-face {
-  font-family: Nirmala UI;
-  src: url(/src/fonts/Nirmala.ttf), format('truetype');
+  font-family: "Nirmala UI";
+  src: url("./fonts/Nirmala.ttf");
 }
 
 @font-face {
-  font-family: noorehuda;
-  src: url(/src/fonts/noorehuda-regular.ttf), format('truetype');
+  font-family: "noorehuda";
+  src: url("./fonts/noorehuda-regular.ttf");
 }
 
 body {
@@ -17,6 +17,6 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
