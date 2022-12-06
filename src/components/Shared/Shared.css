@@ -4,6 +4,12 @@
 .input-field-height {
   height: 100px !important;
 }
+.input-field-font-size {
+  font-size: 60px !important;
+}
+.arabic-word-result {
+  font-size: 40px !important;
+}
 
 .login-page {
   width: 40% !important;
